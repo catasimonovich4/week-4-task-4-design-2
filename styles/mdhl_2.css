@@ -1,0 +1,348 @@
+body {
+  font-family: sans-serif;
+  padding: 0px 30px 5px 30px;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.list-container {
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  top: 14%;
+  right: 0%;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  padding: 10px;
+  margin: 0px 5px;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(49, 49, 49);
+}
+
+.li-container {
+  background-color: rgb(56, 98, 224);
+}
+
+.lig-container {
+  background-color: rgb(71, 145, 61);
+}
+
+.image-container {
+  background-image: url(../assets/images/design1_image2.jpg);
+  height: 30vh;
+  background-position-y: 75%;
+  background-size: cover;
+}
+
+section {
+  display: flex;
+}
+
+.logo-container {
+  width: 15%;
+}
+
+.logo {
+  width: 130px;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.text-container {
+  width: 85%;
+  padding: 30px 60px;
+}
+
+.main-title {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+.rules-main-title {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+.rules-main-title > h2 {
+  margin-top: 5px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin: 5px;
+}
+
+.h-container {
+  margin-top: 32px;
+}
+
+.p-container {
+  padding-left: 30px;
+  margin: -12px;
+}
+
+.mail {
+  color: blue;
+  text-decoration: underline black;
+}
+
+.pa-container {
+  text-indent: 1rem;
+  margin: -12px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.t-container {
+  width: 85%;
+  padding: 30px 20px;
+}
+
+.rules-container {
+  width: 85%;
+  padding: 30px 20px;
+}
+
+.h3-3-rules {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.ol-rules ::marker {
+  font-weight: bold;
+}
+
+.rules-text1 {
+  font-size: 16px;
+  padding-left: 14px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-indent: 1rem;
+  padding-bottom: 10px;
+}
+
+.rules-text2 {
+  display: inline;
+  font-size: 16px;
+  margin-top: -17px;
+  margin-bottom: 3px;
+  padding-bottom: 0px;
+}
+
+.circle-li {
+  list-style-position: inside;
+  list-style-type: circle;
+  font-size: 16px;
+  padding-left: 14px;
+  padding-bottom: 10px;
+  margin-top: -38px;
+  margin-left: 35px;
+}
+
+.in-ol-rules {
+  margin-left: -39px;
+  margin-top: -15px;
+  list-style-type: lower-alpha;
+}
+
+.in-ol-rules ::marker {
+  font-weight: bold;
+}
+
+.rules-li-text {
+  font-size: 16px;
+  margin: 5px 0px;
+}
+
+.first-p-rule {
+  margin-top: -52px;
+  margin-left: 210px;
+  margin-bottom: 45px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.li-1-CF {
+  padding: 15px 0px 0px 0px;
+}
+
+.GI-container {
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.intro-G {
+  margin-top: 20px;
+}
+
+table {
+  width: 70%;
+  margin-left: 90px;
+  margin-bottom: 40px;
+}
+
+th {
+  padding: 5px 0px;
+  text-align: left;
+  /* background-color: rgb(0, 0, 0, 0.9); */
+}
+
+tr {
+  text-align: left;
+}
+
+td {
+  /*     border-bottom: 1px solid #ddd; */
+  padding: 4px 0px;
+}
+
+.date {
+  text-align: center;
+}
+
+.group-info1 {
+  padding: 5px;
+}
+
+.group-info1 > p {
+  display: inline;
+}
+
+.more-info2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.group-info2 {
+  padding: 5px;
+}
+
+.group-info2 > p {
+  display: inline;
+}
+
+.phone {
+  margin-left: 260px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+form {
+  margin: 4% 0%;
+}
+
+.form-first-part {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.form-part1 {
+  padding: 0% 2% 2% 0%;
+}
+
+.form-part2 {
+  padding: 0% 0% 2% 0%;
+  
+}
+
+.form-part3 {
+  padding: 0% 0% 2% 0%;
+  width: 80%;
+}
+
+.form-part4 {
+  padding: 0% 3% 2% 0%;
+}
+
+.form-part5 {
+  padding: 0% 0% 2% 19%;
+}
+
+.fomr-part6 {
+  padding: 0% 0% 2% 0%;
+}
+
+.gender {
+  padding: 0% 1% 0% 5%;
+}
+
+.gender > p {
+  padding: 0%;
+  margin: 0%;
+  display: inline;
+}
+
+.grade {
+  padding: 2% 0% 0% 0%;
+}
+
+.grade > p {
+  padding: 0%;
+  margin: 0%;
+  display: inline;
+}
+
+.sch {
+  margin-top: 7%;
+}
+
+.close-sch {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.close-sch > label {
+  padding: 0%;
+}
+
+.close-sch-1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+}
+
+.close-sch-1 > div {
+  margin: 3% 0%;
+}
+
+.close-sch-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.close-sch-2 > div {
+  margin: 3% 0%;
+}
+
