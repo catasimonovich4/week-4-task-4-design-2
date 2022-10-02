@@ -131,6 +131,12 @@ h2 {
   margin-bottom: 20px;
 }
 
+.ol-li-rules {
+  list-style-position: inside;
+  margin-bottom: 1.5%;
+  margin-left: -2%;
+}
+
 .ol-rules ::marker {
   font-weight: bold;
 }
@@ -188,7 +194,7 @@ span {
 }
 
 .li-1-CF {
-  padding: 15px 0px 0px 0px;
+  display: inline;
 }
 
 .GI-container {
