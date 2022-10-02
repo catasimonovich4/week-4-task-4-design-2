@@ -115,11 +115,15 @@ h2 {
 .t-container {
   width: 85%;
   padding: 30px 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .rules-container {
   width: 85%;
   padding: 30px 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .h3-3-rules {
@@ -412,6 +416,8 @@ form {
 .ptoplay > p {
   padding: 0%;
   margin: 0%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .pertoplay {
